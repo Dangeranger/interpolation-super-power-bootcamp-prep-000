@@ -5,5 +5,3 @@ def display_rainbow(colors)
   end
   puts result
 end
-
-display_rainbow(['red', 'green'])
