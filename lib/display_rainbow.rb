@@ -2,7 +2,8 @@
 def display_rainbow(colors)
   colors.each_with_index do |e, i|
     hash = { colors[i].capitalize[0] => colors[i] }
-    puts "#{hash.key}: #{hash.value}"
+    puts hash
+    # puts "#{hash.key}: #{hash.value}"
   end
 end
 
