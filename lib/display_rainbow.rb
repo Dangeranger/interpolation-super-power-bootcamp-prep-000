@@ -9,4 +9,4 @@ def display_rainbow(colors)
   puts result
 end
 
-# display_rainbow(['red', 'green'])
+display_rainbow(['red', 'green'])
