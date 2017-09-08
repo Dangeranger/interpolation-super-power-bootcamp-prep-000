@@ -1,6 +1,7 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  puts colors.each_with_object([]).with_index do |(elem, array), index|
+  result = colors.each_with_object([]).with_index do |(elem, array), index|
     array << "#{colors[index][0].capitalize}: #{elem}"
-  end.join(', ')
+  end
+  puts result.join(', ')
 end
