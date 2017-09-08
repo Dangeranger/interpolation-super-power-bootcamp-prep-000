@@ -4,7 +4,6 @@ def display_rainbow(colors)
     puts "String: #{string}"
     puts "elem: #{elem}"
     puts "index: #{index}"
-    match = [, colors[i]]
     string << "#{colors[index][0].capitalize}: #{elem}"
     puts match
     puts string
