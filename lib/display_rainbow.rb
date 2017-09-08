@@ -4,7 +4,7 @@ def display_rainbow(colors)
     puts "String: #{string}"
     puts "e: #{e}"
     puts "i: #{i}"
-    match = [colors[i][0].capitalize, colors[i]]
+    match = [colors[index][0].capitalize, colors[i]]
     string << "#{match.first}: #{match.last}"
     puts match
     puts string
