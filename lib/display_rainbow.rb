@@ -2,8 +2,8 @@
 def display_rainbow(colors)
   result = colors.each_with_object("").with_index do |(elem, string), index|
     puts "String: #{string}"
-    puts "e: #{e}"
-    puts "i: #{i}"
+    puts "elem: #{elem}"
+    puts "index: #{index}"
     match = [colors[index][0].capitalize, colors[i]]
     string << "#{match.first}: #{match.last}"
     puts match
