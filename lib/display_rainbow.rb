@@ -4,7 +4,7 @@ def display_rainbow(colors)
     puts "String: #{string}"
     puts "elem: #{elem}"
     puts "index: #{index}"
-    string << "#{colors[index][0].capitalize}: #{elem}"
+    string << "#{colors[index][0].capitalize}: #{elem}, "
     puts string
   end
   puts result
