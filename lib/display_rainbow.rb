@@ -1,4 +1,6 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  puts []
+  colors.each_with_index do |e, i|
+    puts colors[i]
+  end
 end
