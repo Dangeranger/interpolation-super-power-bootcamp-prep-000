@@ -6,7 +6,7 @@ def display_rainbow(colors)
     puts match
     puts string
   end
-  puts string
+  puts result
 end
 
 # display_rainbow(['red', 'green'])
