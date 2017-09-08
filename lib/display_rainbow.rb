@@ -1,7 +1,7 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
   colors.each_with_index do |e, i|
-    puts colors[i]
+    initial = colors[i].capitalize.first
   end
 end
 
