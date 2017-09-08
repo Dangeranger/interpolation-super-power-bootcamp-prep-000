@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  result = colors.each_with_object("").with_index do |(i, e), string|
+  result = colors.each_with_object("").with_index do |(elem, string), index|
     puts "String: #{string}"
     puts "e: #{e}"
     puts "i: #{i}"
